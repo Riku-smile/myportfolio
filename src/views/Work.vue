@@ -1,27 +1,28 @@
 <template>
-  <div class="about">
+  <div class="home">
     <header>
       <Header/>
     </header>
     <main>
-      <aboutComponent/>
+      <workComponent/>
     </main>
     <footer>
-      <Footer topLink="about" />
+      <Footer topLink="work" />
     </footer>
   </div>
 </template>
+
 <script>
 // @ is an alias to /src
-import aboutComponent from '@/components/aboutComponent.vue'
+import workComponent from '@/components/workComponent.vue'
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 
 
 export default {
-  name: 'about',
+  name: 'work',
   components: {
-    aboutComponent,
+    workComponent,
     Header,
     Footer
   }
