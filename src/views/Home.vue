@@ -7,7 +7,7 @@
       <indexComponent/>
     </main>
     <footer>
-      <Footer topLink="/" />
+      <Footer />
     </footer>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="container bg-gray-400 mx-auto rounded">
+  <div class="container bg-gray-400 mx-auto pb-8 rounded">
     <h2 class="text-4xl text-center">Thank you for reading<span class="text-red-600">.</span></h2>
     <!-- twitter logo -->
     <div id="sns" class="flex justify-center items-center">
@@ -7,16 +7,12 @@
       </svg></a>
       <p class="text-lg">←Twitterをやっています。</p>
     </div>
-    <a :href="topLink" class="block text-center text-xl text-blue-700 hover:opacity-75 py-8"><span class="border-b border-blue-700">最上部へ戻る</span></a>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Footer',
-  props: {
-    topLink: String
-  }
+  name: 'Footer'
 }
 </script>
 

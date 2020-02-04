@@ -7,7 +7,7 @@
       <aboutComponent/>
     </main>
     <footer>
-      <Footer topLink="about" />
+      <Footer />
     </footer>
   </div>
 </template>

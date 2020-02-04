@@ -7,7 +7,7 @@
       <workComponent/>
     </main>
     <footer>
-      <Footer topLink="work" />
+      <Footer />
     </footer>
   </div>
 </template>

@@ -7,7 +7,7 @@
       <formComponent/>
     </main>
     <footer>
-      <Footer topLink="form" />
+      <Footer />
     </footer>
   </div>
 </template>
