@@ -7,7 +7,7 @@
       </svg></a>
       <p class="text-lg">←Twitterをやっています。</p>
     </div>
-    <a :href=topLink class="block text-center text-xl text-blue-700 hover:opacity-75 py-8"><span class="border-b border-blue-700">最上部へ戻る</span></a>
+    <a :href="topLink" class="block text-center text-xl text-blue-700 hover:opacity-75 py-8"><span class="border-b border-blue-700">最上部へ戻る</span></a>
   </div>
 </template>
 
